@@ -40,7 +40,6 @@ const App = () => {
                     <Route path='/software-automation-testing' element={<SoftwareTesting/>}/>
                     <Route path='/ui-ux' element={<UiUx/>}/>
                     <Route path='/*' element={<PageNotFound/>}/>
-                    <Route path='/404' element={<PageNotFound/>}/>
                 </Routes>
               </div>
           </div>
