@@ -39,7 +39,8 @@ const App = () => {
                     <Route path="/fsd" element={<FSD/>} />
                     <Route path='/software-automation-testing' element={<SoftwareTesting/>}/>
                     <Route path='/ui-ux' element={<UiUx/>}/>
-                    <Route path='*' element={<PageNotFound/>}/>
+                    <Route path='/*' element={<PageNotFound/>}/>
+                    
                 </Routes>
               </div>
           </div>
