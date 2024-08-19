@@ -14,6 +14,7 @@ import DigitalMarketing from './Components/Pages/DigitalMarketing';
 import FSD from './Components/Pages/FSD';
 import SoftwareTesting from './Components/Pages/SoftwareTesting';
 import UiUx from './Components/Pages/UiUx';
+import PageNotFound from './Components/Pages/PageNotFound';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
                     <Route path="/fsd" element={<FSD/>} />
                     <Route path='/software-automation-testing' element={<SoftwareTesting/>}/>
                     <Route path='/ui-ux' element={<UiUx/>}/>
+                    <Route path='*' element={<PageNotFound/>}/>
                 </Routes>
               </div>
           </div>
