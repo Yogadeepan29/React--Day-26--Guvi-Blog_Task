@@ -7,7 +7,6 @@ const Card = ({ item }) => {
         <a href={item.url}>
           <img
             src={item.img}
-            crossorigin="anonymous"
             alt={item.title}
             className="card-img-top img-fluid"
             style={{ objectFit: "cover", height: "200px" }}
