@@ -1,13 +1,12 @@
 import React from "react";
 
 const Card = ({ item }) => {
-  const proxy = "https://cors-anywhere-hcr0.onrender.com/";
   return (
     <div className="col-lg-4 my-4">
       <div className="card border-0 shadow-sm position-relative h-100">
         <a href={item.url}>
           <img
-            src={`${proxy}${item.img}`}
+            src={item.img}
             alt={item.title}
             className="card-img-top img-fluid"
             style={{ objectFit: "cover", height: "200px" }}
