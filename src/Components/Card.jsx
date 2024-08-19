@@ -1,12 +1,11 @@
 import React from "react";
-import LazyLoad from "react-lazy-load";
 
 const Card = ({ item }) => {
   return (
     <div className="col-lg-4 my-4">
       <div className="card border-0 shadow-sm position-relative h-100">
         <a href={item.url}>
-          <LazyLoad
+          <img
             src={item.img}
             alt={item.title}
             className="card-img-top img-fluid"
