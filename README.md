@@ -27,7 +27,7 @@ A React-based web application that clones the Guvi blog website, featuring a nav
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/guvi-blog-clone.git`
+1. Clone the repository: `git clone https://github.com/Yogadeepan29/React--Day-26--Guvi-Blog_Task.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm run dev`
 4. Open the application in your web browser: `http://localhost:3000`
