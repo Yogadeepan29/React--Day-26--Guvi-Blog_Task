@@ -11,7 +11,7 @@ const Card = ({ item }) => {
             className="card-img-top img-fluid"
             style={{ objectFit: "cover", height: "200px" }}
             onError={(e) => {
-              e.target.src = 'https://entrackr.com/storage/2022/09/Guvi.jpg';
+              e.target.src = '/guvi.png';
             }}
           />
         </a>
